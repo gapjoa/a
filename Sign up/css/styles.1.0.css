@@ -1,0 +1,163 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+}
+
+
+header{
+    background: rgba(255, 255, 255, .3);
+    padding: 3rem;
+    height: 20px;
+    width: 1000px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    /* effet */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter:blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+    text-align: top;
+
+}
+button.signe-up{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    opacity: .7;
+    font-size: 1.4rem;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    transform: translate();
+}
+button.aceuille{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    opacity: .7;
+    font-size: 1.4rem;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    transform: translate();
+}
+body{
+    background: linear-gradient(45deg, rgb(109, 61, 61), rgb(232, 27, 0),rgb(12, 12, 246));
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenaire{
+    position: relative;
+}
+form{
+    background: rgba(255, 255, 255, .3);
+    padding: 3rem;
+    height: 320px;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    /* effet */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter:blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    opacity: .7;
+    font-size: 1.4rem;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+a{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 12px;
+    transition: all .3s;
+}
+a:hover{
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+
+input{
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 1rem;
+    width: 200px ;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter:blur(5px);
+    box-shadow: 4px 4px 60px  rgba(0, 0, 0, .2);
+    color: white;
+    font-weight: 500;
+    text-shadow:  2px 2px 4px rgba(0, 0, 0, .2);
+    transition: all .3s;
+    margin-bottom: 2rem;
+
+}
+
+
+::placeholder{
+    color: white;
+}
+
+input:hover,
+input[type="email"]:focus,
+input[type="password"]:focus{
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, .2);
+}
+
+input[type="button"]{
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+    width: 150px;
+
+}
+.drop{
+    background: rgba(255, 255, 255, .3);  
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter:blur(10px);
+    position: absolute;
+    border-left: 1px  rgba(255, 255, 255, .3) ;
+    border-top: 1px  rgba(255, 255, 255, .3) ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, .2);
+}
+
+div.drop-1{
+    height: 80px; width: 80px;
+   transform: translate(-40px,-450px);
+   z-index: -1;
+}
+div.drop-2{
+    height: 80px; width: 80px;
+   transform: translate(240px,-45px);
+   z-index: 1;
+}
+div.drop-3{
+    height: 100px; width: 100px;
+   transform: translate(290px,-245px);
+   z-index:-1;
+}
+div.drop-4{
+    height: 120px; width: 120px;
+   transform: translate(259px,-459px);
+   z-index:-1;
+}
+div.drop-5{
+    height: 70px; width: 70px;
+   transform: translate(100px,-180px);
+   z-index:-1;
+}
